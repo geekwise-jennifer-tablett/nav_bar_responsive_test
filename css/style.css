@@ -38,18 +38,29 @@ a:hover{
 li:hover{
     background-color:#f9da0c;
 }
-
+hr{
+    visibility:hidden;
+}
 /*dropdown_menu*/
 .dropdown{
     display:inline-block;
     position:relative;
+     color:#ccc5c5;
+    font-size:2rem;
+    
 }
+
 .dropdown_content{
-    background-color:#f9da0c;
     padding: 10px 10px;
     position:absolute;
-    display:none;animation-fill-mode: 
+    display:none;
+    margin:0 auto;
 }
+
 .dropdown:hover .dropdown_content{
     display:block;
+    background-color:#f9da0c;
+}
+.dropdown_a:hover{
+    background-color:#f9da0c;
 }
