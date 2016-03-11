@@ -77,7 +77,7 @@ hr{
 
 .dropdown_a:hover{
     background-color:#f9da0c;
-}
+}/*
 #toggle{
     display: block;
     display: none;
@@ -90,3 +90,13 @@ hr{
 input[type=checkbox]:checked ~ p{
     display: none;
 }
+*/
+
+
+$(function(){
+  $('.menu-toggle').click(function(){
+    $('.align-right').removeClass("visibleClass");
+    $('.displaylogin').addClass("visibleClass");
+});
+});
+
